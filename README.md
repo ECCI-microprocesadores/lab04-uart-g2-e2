@@ -11,7 +11,21 @@
 
 ## Documentación
 
+Este proyecto consiste en la implementación de una comunicación serial básica mediante el protocolo UART (Universal Asynchronous Receiver Transmitter) usando el microcontrolador PIC18F45K22. La finalidad es enviar información desde el PIC hacia una computadora a través de un convertidor USB-TTL, mostrando mensajes por un programa de terminal.
 
+`Descripción del Funcionamiento`
+
+-Se configura el oscilador interno del PIC a 16 MHz.
+
+-Se habilita la comunicación UART a 9600 bps.
+
+-Se transmite un mensaje de prueba (“Hola, UART funcionando!”) cada segundo.
+
+-El mensaje puede observarse en un programa terminal conectado a la PC.
+
+ `main.c – Programa principal`
+
+Aquí se inicia todo. Se configura el reloj interno del PIC a 16 MHz y se llama a la función UART_Init() para preparar la comunicación serial. Luego, en un bucle infinito, el microcontrolador envía cada segundo el mensaje “Hola, UART funcionando!” al puerto serial. Esto sirve como prueba de que la UART está funcionando correctamente. Puedes ver este mensaje en una terminal serial en tu PC (como PuTTY o el monitor serial de MPLAB X).
 ## Implmentación
 
 
