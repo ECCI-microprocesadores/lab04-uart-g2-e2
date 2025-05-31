@@ -23,6 +23,12 @@ Este proyecto consiste en la implementación de una comunicación serial básica
 
 -El mensaje puede observarse en un programa terminal conectado a la PC.
 
+![DIAGRAMA UART](/imagenes/DIAGRAMA%20UART.png)
+
+![SIMULACION UART](/imagenes/SIMULACION%20UART.png)
+
+![SIMULACION UART](/imagenes/SIMULACION%20UART1.png)
+
  `main.c – Programa principal`[main.c](/code/Main.c)
 
 Aquí se inicia todo. Se configura el reloj interno del PIC a 16 MHz y se llama a la función UART_Init() para preparar la comunicación serial. Luego, en un bucle infinito, el microcontrolador envía cada segundo el mensaje “Hola, UART funcionando!” al puerto serial. Esto sirve como prueba de que la UART está funcionando correctamente. 
@@ -45,3 +51,4 @@ Este módulo convierte señales analógicas, como las de sensores, en valores nu
 La implementación consistió en conectar el microcontrolador PIC18F45K22 con un adaptador USB-TTL para enviar mensajes desde el PIC hacia la computadora. Se usaron los pines RC6 y RC7 para transmitir y recibir datos, y se alimentó el sistema con 5V. Una vez cargado el programa, el PIC comenzó a enviar cada segundo el mensaje “Hola, UART funcionando!”, el cual se pudo ver correctamente en el monitor serial del computador. Esto confirmó que la comunicación estaba funcionando bien y de forma estable.
 
 [Video de Uart.mp4](/Video%20de%20Uart.mp4)
+
