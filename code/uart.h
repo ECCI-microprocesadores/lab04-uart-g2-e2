@@ -4,12 +4,12 @@
 #include <xc.h>
 #include <stdint.h>
 
-#define _XTAL_FREQ 16000000UL    
+#define _XTAL_FREQ 16000000UL
 
 void UART_Init(void);
 void UART_WriteChar(char data);
 void UART_WriteString(const char* str);
 void UART_WriteUInt(uint16_t value);
-void UART_WriteVoltage(uint16_t adcValue);
+void UART_WriteVoltage(float voltage); // Agregamos esta declaración
 
 #endif
