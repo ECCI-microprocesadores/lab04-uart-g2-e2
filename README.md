@@ -29,7 +29,11 @@ En paralelo, implementamos un segundo canal de comunicación usando I2C simuland
 
 ![SIMULACION UART](/imagenes/SIMULACION%20UART.png)
 
-![SIMULACION UART](/imagenes/SIMULACION%20UART1.png)
+![UARTO](/imagenes/UARTO.png)
+
+![UART](/imagenes/UART.jpg)
+
+El microcontrolador envío los datos con una línea de código donde se extrajo solamente el número del voltaje. Luego de cada 100 milisegundos se ejecutó una función que revisó si llegó un dato nuevo y, si es así, lo pone en la gráfica, que muestra cómo va cambiando el voltaje con respecto al tiempo.
 
  `main.c – Programa principal`[main.c](/code/Main.c)
 
@@ -62,4 +66,5 @@ La implementación consistió en conectar el microcontrolador PIC18F45K22 con un
 Adicionalmente, el mismo mensaje lo enviamos por I2C a un dispositivo esclavo simulado, permitiendo comparar ambos canales.
 
 [Video de Uart.mp4](/Video%20de%20Uart.mp4)
+
 
