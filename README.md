@@ -29,7 +29,7 @@ En paralelo, implementamos un segundo canal de comunicación usando I2C simuland
 
 ![SIMULACION UART](/imagenes/SIMULACION%20UART.png)
 
-![UARTO](/imagenes/UARTO.png)
+![UARTo](/imagenes/UARTO.png)
 
 ![UART](/imagenes/UART.jpg)
 
