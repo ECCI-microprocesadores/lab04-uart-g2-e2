@@ -134,6 +134,5 @@ Adicionalmente, el mismo mensaje lo enviamos por I2C a un dispositivo esclavo si
 
 - Pudimos evidenciar como una señal analoga puede ser visualizada en una señal digital
 - Evidenciamos los cambios del voltaje que se hacian con el potenciometro de manera digital por medio del programa PuTTY
-- Se visualizo graficamente por medio del programa Python las variaciones que habian al manipular el potenciometro
 
 
