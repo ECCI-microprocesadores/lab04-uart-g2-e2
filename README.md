@@ -11,7 +11,7 @@
 
 ## Documentación
 
-Este proyecto consiste en la implementación de una comunicación serial básica mediante el protocolo UART (Universal Asynchronous Receiver Transmitter) usando el microcontrolador PIC18F45K22. La finalidad es enviar información desde el PIC hacia una computadora a través de un convertidor USB-TTL, mostrando mensajes por un programa de terminal.
+Este proyecto consiste en la implementación de una comunicación serial básica mediante el protocolo UART (Universal Asynchronous Receiver Transmitter) usando el microcontrolador PIC18F45K22. La finalidad es enviar información desde el PIC hacia una computadora a través de un convertidor USB-TTL, mostrando mensajes por un programa de terminal como PuTTY.
 
 `Descripción del Funcionamiento`
 
@@ -129,5 +129,11 @@ La implementación consistió en conectar el microcontrolador PIC18F45K22 con un
 Adicionalmente, el mismo mensaje lo enviamos por I2C a un dispositivo esclavo simulado, permitiendo comparar ambos canales.
 
 [Video de Uart.mp4](/Video%20de%20Uart.mp4)
+
+## Conclusiones
+
+- Pudimos evidenciar como una señal analoga puede ser visualizada en una señal digital
+- Evidenciamos los cambios del voltaje que se hacian con el potenciometro de manera digital por medio del programa PuTTY
+- Se visualizo graficamente por medio del programa Python las variaciones que habian al manipular el potenciometro
 
 
